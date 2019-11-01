@@ -383,7 +383,7 @@ public class PickerViewModule extends ReactContextBaseJavaModule implements Life
             if (options.hasKey(PICKER_BG_COLOR)) {
                 ReadableArray array = options.getArray(PICKER_BG_COLOR);
                 int[] colors = getColor(array);
-                pickerLayout.setBackgroundColor(argb(colors[3], colors[0], colors[1], colors[2]));
+                pickerLayout.setBackgroundColor(argb(255,255,255,255));
             }
 
             int height = barViewHeight + pickerViewHeight;
