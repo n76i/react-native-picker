@@ -4,8 +4,8 @@ Clone from https://github.com/beefe/react-native-picker
 
 [![npm version](https://img.shields.io/npm/v/react-native-wheel-picker.svg?style=flat-square)](https://www.npmjs.com/package/react-native-wheel-picker) <a href="https://david-dm.org/n76i/react-native-wheel-picker"><img src="https://david-dm.org/n76i/react-native-wheel-picker.svg?style=flat-square" alt="dependency status"></a>   
 
-![ui3](./doc/ui3.jpg)
-![ui4](./doc/ui4.jpg)
+![ui3](https://github.com/n76i/react-native-wheel-picker/blob/master/doc/ui3.jpg)
+![ui4](https://github.com/n76i/react-native-wheel-picker/blob/master/doc/ui4.jpg)
 
 ### Documentation
 
@@ -55,7 +55,7 @@ Clone from https://github.com/beefe/react-native-picker
 	npm install react-native-wheel-picker --save
 ```
 
-#### Step 2 - link
+#### Step 2 - link for RN < 6.0
 
 ```
 	react-native link
@@ -88,7 +88,7 @@ Picker.show();
 ```
 
 ### Integration With Existing Apps (`iOS`)
-The `Podfile` will like below:
+The `Podfile` will like below if you are using RN < 6.0:
 ``` ruby
 platform :ios, '8.0'
 target 'YourTarget' do
