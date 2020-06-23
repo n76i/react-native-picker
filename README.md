@@ -1,5 +1,7 @@
 # react-native-wheel-picker
 
+Clone from https://github.com/beefe/react-native-picker
+
 [![npm version](https://img.shields.io/npm/v/react-native-wheel-picker.svg?style=flat-square)](https://www.npmjs.com/package/react-native-wheel-picker) <a href="https://david-dm.org/beefe/react-native-wheel-picker"><img src="https://david-dm.org/beefe/react-native-wheel-picker.svg?style=flat-square" alt="dependency status"></a>   
 
 ![ui3](./doc/ui3.jpg)
