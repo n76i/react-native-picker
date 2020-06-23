@@ -1,4 +1,4 @@
-# react-native-picker
+# react-native-whell-picker
 
 [![npm version](https://img.shields.io/npm/v/react-native-picker.svg?style=flat-square)](https://www.npmjs.com/package/react-native-picker) <a href="https://david-dm.org/beefe/react-native-picker"><img src="https://david-dm.org/beefe/react-native-picker.svg?style=flat-square" alt="dependency status"></a>   
 
