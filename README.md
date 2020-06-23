@@ -1,6 +1,6 @@
-# react-native-picker
+# react-native-wheel-picker
 
-[![npm version](https://img.shields.io/npm/v/react-native-picker.svg?style=flat-square)](https://www.npmjs.com/package/react-native-picker) <a href="https://david-dm.org/beefe/react-native-picker"><img src="https://david-dm.org/beefe/react-native-picker.svg?style=flat-square" alt="dependency status"></a>   
+[![npm version](https://img.shields.io/npm/v/react-native-wheel-picker.svg?style=flat-square)](https://www.npmjs.com/package/react-native-wheel-picker) <a href="https://david-dm.org/beefe/react-native-wheel-picker"><img src="https://david-dm.org/beefe/react-native-wheel-picker.svg?style=flat-square" alt="dependency status"></a>   
 
 ![ui3](./doc/ui3.jpg)
 ![ui4](./doc/ui4.jpg)
@@ -50,7 +50,7 @@
 #### Step 1 - install
 
 ```javascript
-	npm install react-native-picker --save
+	npm install react-native-wheel-picker --save
 ```
 
 #### Step 2 - link
@@ -62,7 +62,7 @@
 #### Step 3 - import and use in project
 
 ```javascript
-import Picker from 'react-native-picker';
+import Picker from 'react-native-wheel-picker';
 let data = [];
 for(var i=0;i<100;i++){
     data.push(i);
@@ -94,10 +94,10 @@ target 'YourTarget' do
     'Core',
     ...
     ]
-    pod 'Picker', :path => '../YOUR_REACT_NATIVE_PROJECT/node_modules/react-native-picker'
+    pod 'Picker', :path => '../YOUR_REACT_NATIVE_PROJECT/node_modules/react-native-wheel-picker'
 end
 ```
-After you have updated the `Podfile` of the existing app, you can install `react-native-picker` like below:
+After you have updated the `Podfile` of the existing app, you can install `react-native-wheel-picker` like below:
 ``` bash
 $ pod install
 ```
@@ -194,4 +194,4 @@ pickerData = [
 ]
 ```
 
-### For pure javascript version -> [v3.0.5](https://github.com/beefe/react-native-picker/tree/pure-javascript-version)  
+### For pure javascript version -> [v3.0.5](https://github.com/beefe/react-native-wheel-picker/tree/pure-javascript-version)  
