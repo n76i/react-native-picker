@@ -9,9 +9,9 @@ const android = Platform.OS === 'android';
 const Picker = NativeModules.BEEPickerManager;
 const options = {
     isLoop: false,
-    pickerConfirmBtnText: 'confirm',
-    pickerCancelBtnText: 'cancel',
-    pickerTitleText: 'pls select',
+    pickerConfirmBtnText: 'Confirm',
+    pickerCancelBtnText: 'Cancel',
+    pickerTitleText: 'Please select',
     pickerConfirmBtnColor: [1, 186, 245, 1],
     pickerCancelBtnColor: [1, 186, 245, 1],
     pickerTitleColor: [20, 20, 20, 1],
